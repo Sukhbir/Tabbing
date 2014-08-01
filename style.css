@@ -1,0 +1,64 @@
+
+body {
+    background: none repeat scroll 0 0 silver;
+}
+
+.main-tabbing {
+    float: left;
+    width: 100%;
+}
+
+.inner-tabbing {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.content {
+    background: none repeat scroll 0 0 lightgreen;
+    float: left;
+    width: 100%;
+}
+.content > div {
+    float: left;
+    font-family: arial;
+    font-size: 17px;
+    padding: 22px;
+    text-align: justify;
+    width: 94%;
+}
+.tabs {
+    background: none repeat scroll 0 0 skyblue;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    float: left;
+    width: 100%;
+}
+
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-right: 1px solid red;
+    cursor: pointer;
+    float: left;
+    line-height: 37px;
+    text-align: center;
+    width: 199px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+li:last-child {
+    border: medium none;
+}
+
+li:hover {
+    border-bottom: 2px solid red;
+}
+li.active {
+    border-bottom: 2px solid red;
+}
+
